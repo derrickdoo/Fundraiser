@@ -13,6 +13,7 @@
 		39E1400A1A93E957004D9309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E140091A93E957004D9309 /* Images.xcassets */; };
 		39E1400D1A93E957004D9309 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E1400B1A93E957004D9309 /* LaunchScreen.xib */; };
 		39E140191A93E957004D9309 /* FundraiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E140181A93E957004D9309 /* FundraiserTests.swift */; };
+		964836671A95A8DA000DE749 /* CreateChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		39E140121A93E957004D9309 /* FundraiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundraiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E140171A93E957004D9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E140181A93E957004D9309 /* FundraiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundraiserTests.swift; sourceTree = "<group>"; };
+		964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChallengeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				39E140021A93E957004D9309 /* AppDelegate.swift */,
 				39E140041A93E957004D9309 /* ViewController.swift */,
 				39E140061A93E957004D9309 /* Main.storyboard */,
+				964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */,
 				39E140091A93E957004D9309 /* Images.xcassets */,
 				39E1400B1A93E957004D9309 /* LaunchScreen.xib */,
 				39E140001A93E957004D9309 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E140051A93E957004D9309 /* ViewController.swift in Sources */,
+				964836671A95A8DA000DE749 /* CreateChallengeViewController.swift in Sources */,
 				39E140031A93E957004D9309 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				39E1401E1A93E957004D9309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39E1401F1A93E957004D9309 /* Build configuration list for PBXNativeTarget "FundraiserTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				39E140211A93E957004D9309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
