@@ -46,7 +46,6 @@ class AddDonorViewController: UIViewController {
 //        donors.append(donor)
     }
     
-    
     @IBAction func editingChangedNameField(sender: AnyObject) {
         if (nameField.text.isEmpty == true || phoneField.text.isEmpty == true) {
             submitButton.enabled = false
@@ -55,8 +54,6 @@ class AddDonorViewController: UIViewController {
             submitButton.enabled = true
         }
     }
-    
-
     
     @IBAction func editingChangedPhoneNumber(sender: AnyObject) {
         
