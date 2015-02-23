@@ -13,6 +13,12 @@
 		39E1400A1A93E957004D9309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E140091A93E957004D9309 /* Images.xcassets */; };
 		39E1400D1A93E957004D9309 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E1400B1A93E957004D9309 /* LaunchScreen.xib */; };
 		39E140191A93E957004D9309 /* FundraiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E140181A93E957004D9309 /* FundraiserTests.swift */; };
+		6053B93284A667A5C34103E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FAE527FE203F26D556421C /* libPods.a */; };
+		8A42695D1A97DCD5008B5BFE /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42695C1A97DCD5008B5BFE /* LoginScreenViewController.swift */; };
+		8A42695F1A97DE99008B5BFE /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42695E1A97DE99008B5BFE /* SignUpScreenViewController.swift */; };
+		8A4535FE1A97F85B00671966 /* DonorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4535FD1A97F85B00671966 /* DonorsViewController.swift */; };
+		8A4536021A97F8FD00671966 /* DonorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4536011A97F8FD00671966 /* DonorCell.swift */; };
+		8A7E0B2C1A980285009C9C9F /* AddDonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E0B2B1A980285009C9C9F /* AddDonorViewController.swift */; };
 		964836671A95A8DA000DE749 /* CreateChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAC48946501302D2DEA013C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		39E13FFD1A93E957004D9309 /* Fundraiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fundraiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E140011A93E957004D9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E140021A93E957004D9309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +44,14 @@
 		39E140121A93E957004D9309 /* FundraiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundraiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E140171A93E957004D9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E140181A93E957004D9309 /* FundraiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundraiserTests.swift; sourceTree = "<group>"; };
+		8A42695C1A97DCD5008B5BFE /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		8A42695E1A97DE99008B5BFE /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		8A4535FD1A97F85B00671966 /* DonorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorsViewController.swift; sourceTree = "<group>"; };
+		8A4536011A97F8FD00671966 /* DonorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorCell.swift; sourceTree = "<group>"; };
+		8A7E0B2B1A980285009C9C9F /* AddDonorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDonorViewController.swift; sourceTree = "<group>"; };
 		964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChallengeViewController.swift; sourceTree = "<group>"; };
+		A772C4FFBFB3D194A3BC4414 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FAE527FE203F26D556421C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6053B93284A667A5C34103E8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1539943E0B36945BAEE135E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1FAE527FE203F26D556421C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39E13FF41A93E957004D9309 = {
 			isa = PBXGroup;
 			children = (
 				39E13FFF1A93E957004D9309 /* Fundraiser */,
 				39E140151A93E957004D9309 /* FundraiserTests */,
 				39E13FFE1A93E957004D9309 /* Products */,
+				C2F1DBBFF31158420D71E426 /* Pods */,
+				1539943E0B36945BAEE135E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +106,12 @@
 			children = (
 				39E140021A93E957004D9309 /* AppDelegate.swift */,
 				39E140041A93E957004D9309 /* ViewController.swift */,
+				8A4536011A97F8FD00671966 /* DonorCell.swift */,
 				39E140061A93E957004D9309 /* Main.storyboard */,
+				8A7E0B2B1A980285009C9C9F /* AddDonorViewController.swift */,
+				8A4535FD1A97F85B00671966 /* DonorsViewController.swift */,
+				8A42695E1A97DE99008B5BFE /* SignUpScreenViewController.swift */,
+				8A42695C1A97DCD5008B5BFE /* LoginScreenViewController.swift */,
 				964836661A95A8DA000DE749 /* CreateChallengeViewController.swift */,
 				39E140091A93E957004D9309 /* Images.xcassets */,
 				39E1400B1A93E957004D9309 /* LaunchScreen.xib */,
@@ -115,6 +145,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2F1DBBFF31158420D71E426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A772C4FFBFB3D194A3BC4414 /* Pods.debug.xcconfig */,
+				0FAC48946501302D2DEA013C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39E1401C1A93E957004D9309 /* Build configuration list for PBXNativeTarget "Fundraiser" */;
 			buildPhases = (
+				28D186DFE52BEA6F62FC97A8 /* Check Pods Manifest.lock */,
 				39E13FF91A93E957004D9309 /* Sources */,
 				39E13FFA1A93E957004D9309 /* Frameworks */,
 				39E13FFB1A93E957004D9309 /* Resources */,
+				3A46DF57CCFE52C8E51925BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +251,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28D186DFE52BEA6F62FC97A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A46DF57CCFE52C8E51925BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39E13FF91A93E957004D9309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				39E140051A93E957004D9309 /* ViewController.swift in Sources */,
+				8A7E0B2C1A980285009C9C9F /* AddDonorViewController.swift in Sources */,
 				964836671A95A8DA000DE749 /* CreateChallengeViewController.swift in Sources */,
+				8A42695D1A97DCD5008B5BFE /* LoginScreenViewController.swift in Sources */,
+				8A4535FE1A97F85B00671966 /* DonorsViewController.swift in Sources */,
 				39E140031A93E957004D9309 /* AppDelegate.swift in Sources */,
+				8A4536021A97F8FD00671966 /* DonorCell.swift in Sources */,
+				8A42695F1A97DE99008B5BFE /* SignUpScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +417,7 @@
 		};
 		39E1401D1A93E957004D9309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A772C4FFBFB3D194A3BC4414 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fundraiser/Info.plist;
@@ -348,6 +428,7 @@
 		};
 		39E1401E1A93E957004D9309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAC48946501302D2DEA013C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fundraiser/Info.plist;

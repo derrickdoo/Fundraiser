@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B7E488A-F249-4D5F-A889-1113E96E44CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fundraiser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8839AE9D386D8DFA2BCD38D6C88B982CB363A4A0</key>
+		<string>https://github.com/derrickdoo/Fundraiser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fundraiser.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8839AE9D386D8DFA2BCD38D6C88B982CB363A4A0</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/derrickdoo/Fundraiser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8839AE9D386D8DFA2BCD38D6C88B982CB363A4A0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8839AE9D386D8DFA2BCD38D6C88B982CB363A4A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fundraiser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
