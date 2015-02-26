@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3904F8C21A9F0680003CA22F /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3904F8C11A9F0680003CA22F /* CampaignViewController.swift */; };
 		39E140031A93E957004D9309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E140021A93E957004D9309 /* AppDelegate.swift */; };
 		39E140051A93E957004D9309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E140041A93E957004D9309 /* ViewController.swift */; };
 		39E140081A93E957004D9309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E140061A93E957004D9309 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		0FAC48946501302D2DEA013C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3904F8C11A9F0680003CA22F /* CampaignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
 		39E13FFD1A93E957004D9309 /* Fundraiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fundraiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E140011A93E957004D9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E140021A93E957004D9309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				39E140091A93E957004D9309 /* Images.xcassets */,
 				39E1400B1A93E957004D9309 /* LaunchScreen.xib */,
 				39E140001A93E957004D9309 /* Supporting Files */,
+				3904F8C11A9F0680003CA22F /* CampaignViewController.swift */,
 			);
 			path = Fundraiser;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				8A42695D1A97DCD5008B5BFE /* LoginScreenViewController.swift in Sources */,
 				8A4535FE1A97F85B00671966 /* DonorsViewController.swift in Sources */,
 				39E140031A93E957004D9309 /* AppDelegate.swift in Sources */,
+				3904F8C21A9F0680003CA22F /* CampaignViewController.swift in Sources */,
 				8A4536021A97F8FD00671966 /* DonorCell.swift in Sources */,
 				8A42695F1A97DE99008B5BFE /* SignUpScreenViewController.swift in Sources */,
 			);
